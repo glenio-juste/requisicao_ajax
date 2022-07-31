@@ -1,0 +1,77 @@
+<!doctype HTML>
+<html lang="pt-br">
+
+<head>
+    <title>Requisição por AJAX</title>
+    <meta charset="utf-8" />
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        
+        <h1>
+            Requisição por AJAX
+        </h1>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="cep">CEP</label>
+                    <input type="text" class="form-control" id="cep" autocomplete="off" >
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="rua">Rua</label>
+                    <input type="text" class="form-control" id="rua">
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" class="form-control" id="bairro">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade">
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="form-group">
+                    <label for="estado">Estado</label>
+                    <input type="text" class="form-control" id="estado">
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="form-group">
+                    <label for="ddd">DDD</label>
+                    <input type="text" class="form-control" id="ddd">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <button id="btnCadastrarEndereco" class="btn btn-primary">Cadastrar</button>
+                    <span id=spResultado></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
